@@ -30,8 +30,15 @@ Route::get('/about', function () {
         "judul2" => "Our Philosophy",
         "desk2" => "Depending on the day of your visit to the restaurant, you will experience one of our creations.
         Whisper to us about your feelings, and we will prepare what you need now.",
-       
+
     ]);
-  });
+});
+
+Route::get('/rooftop', function () {
+    return view('rooftop', [
+        "title" => "Rooftop",
+        "active" => 'rooftop'
+    ]);
+});
 
 Route::get('/login', [LoginController::class, 'index']);
