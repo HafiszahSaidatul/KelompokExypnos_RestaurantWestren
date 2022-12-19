@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="login-bg">
 
 
     <div class="container  p-4">
