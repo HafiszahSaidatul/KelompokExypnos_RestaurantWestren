@@ -1,7 +1,7 @@
 @extends('layouts.main2')
 
 @section('container')   
-    <div class="container  p-4">
+    <div class="container p-4">
         <div class="row main mt-5">
             <!-- sign up form -->
             <div class="col-md-6" id="signUp">
@@ -55,7 +55,7 @@
             </div>
 
             <!-- Login Form  -->
-            <div class="col-md-6 p-5 " id="login">
+            <div class="col-md-6 p-5" id="login">
                 @if(session()->has('success'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                     {{ session('success') }}
@@ -98,7 +98,7 @@
                     </div>
                 </form>
             </div>
-            <div id="overlay-login"></div>
+            <div id="overlay-register"></div>
         </div>
     </div>
 @endsection

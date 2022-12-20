@@ -69,12 +69,23 @@ button:hover {
   color: rgb(3, 48, 197);
 }
 
-#overlay {
+#overlay-login {
   background-color: #fff;
   height: 550px;
   width: 600px;
   position: absolute;
   transform: translate(0px, -25px);
+  border-radius: 25px;
+  background-image: url(/assets/img/bg_login1.jpg);
+  transition: .5s;
+}
+
+#overlay-register {
+  background-color: #fff;
+  height: 550px;
+  width: 600px;
+  position: absolute;
+  transform: translate(550px, -25px);
   border-radius: 25px;
   background-image: url(/assets/img/bg_login1.jpg);
   transition: .5s;
