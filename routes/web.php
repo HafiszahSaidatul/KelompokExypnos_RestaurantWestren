@@ -37,7 +37,7 @@ Route::get('/about', function () {
 
 Route::get('/rooftop', function () {
     return view('rooftop', [
-        "title" => "Rooftop",
+        "title" => "rooftop",
         "active" => 'rooftop'
     ]);
 });
@@ -48,6 +48,7 @@ Route::get('/menu', function () {
         "active" => 'menu'
     ]);
 });
+
 
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
