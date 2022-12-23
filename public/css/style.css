@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+body {
+  background: #0c3b2e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +19,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0c3b2e;
 }
 
 header {
@@ -27,7 +30,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 header .logo {
@@ -110,7 +112,7 @@ header ul li a {
 .thumb {
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 100px;
   transform: translateX(-50%);
   display: flex;
 }
@@ -154,12 +156,13 @@ header ul li a {
 
 .circle {
   position: absolute;
+  margin-top: -50px;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: #ffba00;
-  clip-path: circle(600px at right 800px);
+  clip-path: circle(595px at right 800px);
 }
 
 .working {
