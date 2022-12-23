@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-  <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Post Categories</h1>
+  <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Categories Food</h1>
 
   <div class="container">
     <div class="row">
