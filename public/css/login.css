@@ -1,7 +1,7 @@
 .login-bg {
   background-color: #285430;
-  background-image: linear-gradient(90deg, #ffba00 10%, #6d9773 46%, #0c3b2e 100%);
-  background-size: 100% 100%;
+  background-image: linear-gradient(90deg, #ffbe00 10%, #699970 46%, #0c3b2e 100%);
+  background-size: 150% 150%;
 }
 
 .main {
@@ -14,7 +14,7 @@ input {
   outline: none;
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid dodgerblue;
+  border-bottom: 2px solid  #0c3b2e;;
   width: 100%;
   position: relative;
   bottom: 0px;
@@ -66,24 +66,24 @@ button:hover {
 }
 
 #overlay-login {
-  background-color: #fff;
-  height: 550px;
-  width: 600px;
+  background-color:  #0c3b2e;
+  height: 580px;
+  width: 580px;
   position: fixed;
   transform: translate(0px, -25px);
   border-radius: 25px;
-  background-image: url(/assets/img/bg_affomato.jpg);
+  background-image: url(/assets/img/lg.gif);
   transition: .5s;
 }
 
 #overlay-register {
-  background-color: #fff;
-  height: 550px;
+  background-color:  #0c3b2e;
+  height: 580px;
   width: 600px;
   position: absolute;
   transform: translate(550px, -25px);
   border-radius: 25px;
-  background-image: url(/assets/img/bg_affomato.jpg);
+  background-image: url(/assets/img/rg.gif);
   transition: .5s;
 }
 

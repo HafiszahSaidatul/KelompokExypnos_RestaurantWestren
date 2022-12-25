@@ -120,7 +120,7 @@ header ul li a {
 .thumb li {
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 20px -100pt;
   cursor: pointer;
   transition: 0.5%;
 }
@@ -131,6 +131,7 @@ header ul li a {
 
 .thumb li img {
   max-width: 60px;
+ 
 }
 
 .sci {
@@ -160,7 +161,7 @@ header ul li a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 110%;
+  height: 108%;
   background: #ffba00;
   clip-path: circle(595px at right 800px);
 }
@@ -218,9 +219,13 @@ header ul li a {
   text-align: center;
 }
 
+.card .front span{
+  color: #0c3b2e;
+  
+  }
 .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background: rgb(3, 35, 54);
+  background: #c7ab01;
   padding: 15px;
   color: #f3f3f3;
   display: flex;
@@ -248,7 +253,15 @@ header ul li a {
 
 .card .back p {
   letter-spacing: 1px;
+  font-size: 15px;
 } 
+
+.card .back span{
+color: #0c3b2e;
+font-size: 40px;
+font-weight: bold;
+
+}
 
 .card:hover .front {
   transform: perspective(600px) rotateY(180deg);
