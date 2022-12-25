@@ -310,7 +310,7 @@ header ul li a {
 
 .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background: rgb(3, 35, 54);
+  background: #c7ab01;
   padding: 15px;
   color: #f3f3f3;
   display: flex;
@@ -338,7 +338,15 @@ header ul li a {
 
 .card .back p {
   letter-spacing: 1px;
+  font-size: 15px;
 } 
+
+.card .back span{
+  color: #0c3b2e;
+  font-size: 40px;
+  font-weight: bold;
+  
+  }
 
 .card:hover .front {
   transform: perspective(600px) rotateY(180deg);

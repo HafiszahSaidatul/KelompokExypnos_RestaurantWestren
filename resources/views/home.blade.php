@@ -8,10 +8,10 @@
     <div class="content my-5 py-5">
         <div class="textBox">
             <h2>Restaurant<br><span>Affomato</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, s
-                ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
-                isi ut aliquip ex ea commodo.</p>
+            <p>A Delectable Distinguished Affomato Like No Other. Exclusive & Unorthodox.
+               A Feast for the Palette. A Break From the Hustle, Residing On A Rooftop
+               Evoking Moments To Remember,Whisper to us about your feelings
+               and we will prepare what you need now.</p>
           <a class="{{ $active === 'login' ? 'active' : '' }}" href="/login">View Menu</a>
         </div>
 
@@ -23,11 +23,11 @@
     <ul class="thumb">
         <li><img src="/assets/img/img1.png" onclick="imgSlider('/assets/img/img1.png');changeCircleColor('#ffbe00')"></li>
         <li><img src="/assets/img/img2.png" onclick="imgSlider('/assets/img/img2.png');changeCircleColor('#90b217')"></li>
-        <li><img src="/assets/img/img3.png" onclick="imgSlider('/assets/img/img3.png');changeCircleColor('#90b217')"></li>
+        <li><img src="/assets/img/img3.png" onclick="imgSlider('/assets/img/img3.png');changeCircleColor('#9dc741')"></li>
     </ul>
     <ul class="sci">
         <li><a href="#"><img src="/assets/img/f.png"></a></li>
-        <li><a href="#"><img src="/assets/img/i.png"></a></li>
+        <li><a href="#"><img src="/assets/img/ig.png"></a></li>
         <li><a href="#"><img src="/assets/img/t.png"></a></li>
     </ul>
 
@@ -61,8 +61,8 @@
             <h3>Breakfast</h3>
         </div>
         <div class="face back">
-            <h3>Breakfast</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <span>Breakfast</span>
+            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -75,8 +75,8 @@
        <h3>Breakfast</h3>
         </div>
         <div class="face back">
-            <h3>Breakfast</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+        <span>Breakfast</span>
+            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -89,8 +89,8 @@
        <h3>Breakfast</h3>
         </div>
         <div class="face back">
-            <h3>Breakfast</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+        <span>Breakfast</span>
+            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -103,8 +103,8 @@
             <h3>Have Lunch</h3>
         </div>
         <div class="face back">
-        <h3>Have Lunch</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+        <span>Have Lunch</span>
+            <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -117,8 +117,8 @@
             <h3>Have Lunch</h3>
         </div>
         <div class="face back">
-        <h3>Have Lunch</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+        <span>Have Lunch</span>
+        <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -131,8 +131,8 @@
             <h3>Have Lunch</h3>
         </div>
         <div class="face back">
-          <h3>Have Lunch</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+        <span>Have Lunch</span>
+          <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -144,8 +144,8 @@
             <h3>Dinner</h3>
         </div>
         <div class="face back">
-          <h3>Dinner</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+          <span>Dinner</span>
+          <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -157,8 +157,8 @@
             <h3>Dinner</h3>
         </div>
         <div class="face back">
-            <h3>Dinner</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <span>Dinner</span>
+            <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
@@ -170,8 +170,8 @@
             <h3>Dinner</h3>
         </div>
         <div class="face back">
-            <h3>Dinner</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius harum molestiae iste, nihil doloribus fugiat distinctio ducimus maxime totam nulla fuga odio non aperiam eos?</p>
+            <span>Dinner</span>
+            <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
                 <a href="#">Details</a>
             </div>
