@@ -3,6 +3,11 @@
 body {
   background: #0c3b2e;
 }
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
 
 * {
   margin: 0;
@@ -10,6 +15,8 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+
 
 section {
   position: relative;
@@ -269,4 +276,7 @@ font-weight: bold;
 
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
+}
+.section-heading p, h2 {
+	color: #f3f3f3;
 }
