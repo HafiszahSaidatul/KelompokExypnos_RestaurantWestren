@@ -78,7 +78,7 @@
         <span>Breakfast</span>
             <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
             <div class="link">
-                <a href="#">Details</a>
+                <a href="#">Detailss</a>
             </div>
         </div>
     </div>
