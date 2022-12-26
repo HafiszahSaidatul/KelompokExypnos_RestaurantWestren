@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MenuController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardMenuController;
+use App\Http\Controllers\AdminCategoryController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Category;
 
@@ -25,7 +28,7 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "about",
+        "title" => "About",
         "active" => 'about',
         "judul1" => "A journey of umami woven into a melody of flavors in every dish",
         "desk1" => "A Delectable Distinguished Omakase Like No Other. Exclusive & Unorthodox. A Feast for the Palette. A Break From the Hustle, Residing On A Rooftop; Evoking Moments To Remember.",
@@ -43,16 +46,12 @@ Route::get('/rooftop', function () {
     ]);
 });
 
-Route::get('/menu', function () {
-    return view('menu', [
-        "title" => "menu",
-        "active" => 'menu'
-    ]);
-});
+Route::get('/menus', [MenuController::class, 'index']);
+Route::get('/menus/{menu:slug}', [MenuController::class, 'show'])->middleware('auth');
 
 Route::get('/categories', function () {
     return view('categories', [
-        'title' => 'Post Categories',
+        'title' => 'Menu Categories',
         'active' => 'categories',
         'categories' => Category::all()
     ]);
@@ -68,3 +67,8 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
+
+Route::get('/dashboard/menus/checkSlug', [DashboardMenuController::class], 'checkSlug')->middleware('auth');
+Route::resource('/dashboard/menus', DashboardMenuController::class)->middleware('auth');
+
+Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show')->middleware('admin');
