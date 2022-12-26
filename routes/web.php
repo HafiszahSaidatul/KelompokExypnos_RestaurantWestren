@@ -29,9 +29,10 @@ Route::get('/about', function () {
         "active" => 'about',
         "judul1" => "A journey of umami woven into a melody of flavors in every dish",
         "desk1" => "A Delectable Distinguished Omakase Like No Other. Exclusive & Unorthodox. A Feast for the Palette. A Break From the Hustle, Residing On A Rooftop; Evoking Moments To Remember.",
-        "judul2" => "Our Philosophy",
-        "desk2" => "Depending on the day of your visit to the restaurant, you will experience one of our creations.
-        Whisper to us about your feelings, and we will prepare what you need now.",
+        "judul2" => "Affomato Western",
+        "desk2" => "Depending on the day of your visit to the restaurant, you will experience one of our creations. Whisper to us about your feelings, and we will prepare what you need now, and for tourists you will 
+        feel back to your hometown and for domestic people it will be like going abroad by tasting food in our restaurant,fast food, fast casual, casual, fine dining, gastropub, fusion, neighborhood and sports lover dining.
+        Other popular concepts include family dining, bistros, coffee shops, buffets, mid-range dining and mobile food trucks",
 
     ]);
 });

@@ -42,8 +42,8 @@
     <div class="container text-left text-white">
         <div class="row">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
-                <div class="section-heading text-center">
-    <h3 class="text-center" style ="margin-top : 30px; color: #ffba00; font-size:50px;">ABOUT US</h3>
+            <div class="section-heading text-center">
+    <h3 class="text-center" style ="margn-top : 30px; color: #ffba00; font-size:50px;">ABOUT US</h3>
     </div>
             </div>
         </div>
@@ -64,134 +64,43 @@
 
 
 <!-- Halaman Menu -->
-<div class="container mt-4">
-        <h3 class="text-center" style="color :#ffbe00; font-size :50px;">Menu Favorite</h3>
-<div class="pgn">      
-<div class="card">
-        <div class="face front">
-      <img src="https://source.unsplash.com/500x300?breakfast">
-            <h3>Breakfast</h3>
-        </div>
-        <div class="face back">
-            <span>Breakfast</span>
-            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
+<div class="container text-left text-white">
+        <div class="row">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+            <div class="section-heading text-center">
+    <h3 class="text-center" style ="margin: 0 20px -50pt; color: #ffba00; font-size:50px;">Menu Favorite</h3>
+    <div class="col">
+        <div class="containeroo">
+            <div class="card">
+            <img src="/assets/img/b.png" alt="" class="card__img">
+                     <div class="card__data">
+                         <h1 class="card__title"> Strawberry Roll</h1>
+                         <span class="card__preci">50K</span>
+                         <p class="card__description"> Strawberry shortcake Menu Best Seller Breakfast.</p>
+                         <a href="#" class="card__button">Review</a>
+                     </div>
+            </div>
+            <div class="card">
+            <img src="/assets/img/nodle.png" alt="" class="card__img">
+                     <div class="card__data">
+                         <h1 class="card__title">Veggle Noodles</h1>
+                         <span class="card__preci">90K</span>
+                         <p class="card__description">Veggle Noodles Menu Best Seller Have Lunch.</p>
+                         <a href="#" class="card__button">Review</a>
+                     </div>
+            </div>
+            <div class="card">
+            <img src="/assets/img/pasta.png" alt="" class="card__img">
+                     <div class="card__data">
+                         <h1 class="card__title">Pasta Tomato</h1>
+                         <span class="card__preci">150K</span>
+                         <p class="card__description">Pasta Tomato Menu Best Seller Dinner.</p>
+                         <a href="#" class="card__button">Review</a>
+                     </div>
             </div>
         </div>
-    </div>
 
-    <div class="card">
-        <div class="face front">
-       <img src="https://source.unsplash.com/500x300?breakfast">
-       <h3>Breakfast</h3>
-        </div>
-        <div class="face back">
-        <span>Breakfast</span>
-            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Detailss</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="face front">
-        <img src="https://source.unsplash.com/500x300?breakfast">
-       <h3>Breakfast</h3>
-        </div>
-        <div class="face back">
-        <span>Breakfast</span>
-            <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="face front">
-      <img src="https://source.unsplash.com/500x300?lunch">
-            <h3>Have Lunch</h3>
-        </div>
-        <div class="face back">
-        <span>Have Lunch</span>
-            <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="face front">
-        <img src="https://source.unsplash.com/500x300?lunch">
-            <h3>Have Lunch</h3>
-        </div>
-        <div class="face back">
-        <span>Have Lunch</span>
-        <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="card">
-        <div class="face front">
-        <img src="https://source.unsplash.com/500x300?lunch">
-            <h3>Have Lunch</h3>
-        </div>
-        <div class="face back">
-        <span>Have Lunch</span>
-          <p>This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face front">
-           <img src="https://source.unsplash.com/500x300?food-dinner">
-            <h3>Dinner</h3>
-        </div>
-        <div class="face back">
-          <span>Dinner</span>
-          <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face front">
-        <img src="https://source.unsplash.com/500x300?food-dinner">
-            <h3>Dinner</h3>
-        </div>
-        <div class="face back">
-            <span>Dinner</span>
-            <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face front">
-        <img src="https://source.unsplash.com/500x300?food-dinner">
-            <h3>Dinner</h3>
-        </div>
-        <div class="face back">
-            <span>Dinner</span>
-            <p>This dinner menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    </div>    
-    </div> 
-
+</div>
     <script src="/js/jquery.min.js"></script>	 
     <script src="/js/jquery.easing.min.js"></script>
    <script src="/js/wow.min.js"></script>
