@@ -1,5 +1,11 @@
 @extends('layouts.main')
-
+<link href="/css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/css/plugins/cubeportfolio/css/cubeportfolio.min.css">
+<link href="/css/owl.carousel.css" rel="stylesheet" media="screen" />
+<link href="/css/nivo-lightbox.css" rel="stylesheet" />
+<link href="/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+<link href="/css/owl.theme.css" rel="stylesheet" media="screen" />
+<link href="/css/animate.css" rel="stylesheet" />
 @section('container')
 
 <!-- Halaman Home  -->
@@ -34,7 +40,13 @@
 <!-- Halaman About -->
     <section>
     <div class="container text-left text-white">
+        <div class="row">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+                <div class="section-heading text-center">
     <h3 class="text-center" style ="margin-top : 30px; color: #ffba00; font-size:50px;">ABOUT US</h3>
+    </div>
+            </div>
+        </div>
         <div class="row mt-5 py-5" style="margin-top: 50px">
             <div class="col">
                 <img src="https://source.unsplash.com/500x300?restaurant">
@@ -180,5 +192,14 @@
     </div>    
     </div> 
 
-
+    <script src="/js/jquery.min.js"></script>	 
+    <script src="/js/jquery.easing.min.js"></script>
+   <script src="/js/wow.min.js"></script>
+   <script src="/js/jquery.scrollTo.js"></script>
+   <script src="/js/jquery.appear.js"></script>
+   <script src="/js/stellar.js"></script>
+   <script src="/css/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+   <script src="/js/owl.carousel.min.js"></script>
+   <script src="/js/nivo-lightbox.min.js"></script>
+   <script src="/js/custom.js"></script>
 @endsection
