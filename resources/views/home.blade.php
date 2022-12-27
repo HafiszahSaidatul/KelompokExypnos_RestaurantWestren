@@ -75,7 +75,7 @@
             <img src="/assets/img/b.png" alt="" class="card__img">
                      <div class="card__data">
                          <h1 class="card__title"> Strawberry Roll</h1>
-                         <span class="card__preci">50K</span>
+                         <span class="card__preci">82K</span>
                          <p class="card__description"> Strawberry shortcake Menu Best Seller Breakfast.</p>
                          <a href="#" class="card__button">Review</a>
                      </div>
@@ -93,7 +93,7 @@
             <img src="/assets/img/pasta.png" alt="" class="card__img">
                      <div class="card__data">
                          <h1 class="card__title">Pasta Tomato</h1>
-                         <span class="card__preci">150K</span>
+                         <span class="card__preci">159K</span>
                          <p class="card__description">Pasta Tomato Menu Best Seller Dinner.</p>
                          <a href="#" class="card__button">Review</a>
                      </div>
