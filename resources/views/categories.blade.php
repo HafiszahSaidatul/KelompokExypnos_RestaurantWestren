@@ -7,14 +7,19 @@
     <div class="row">
       @foreach ($categories as $category)
       <div class="col-md-4"> 
-        <a href="/posts?category={{ $category->slug }}">
-          <div class="card bg-dark text-white">
-            <img src="https://source.unsplash.com/500x500?{{ $category->name }}" class="card-img" alt="{{ $category->name }}">
-            <div class="card-img-overlay d-flex align-items-center p-0">
-              <h5 class="card-title text-center flex-fill p-4 fs-3" style="background-color: rgba(0, 0, 0, 0.7)">{{ $category->name }}</h5>
-            </div>
-          </div>
-        </a>
+        <div class="card">
+          <div class="face front">
+            <img src="https://source.unsplash.com/500x300?{{ $category->name }}">
+            <h3>{{ $category->name }}</h3>
+             </div>
+             <div class="face back">
+             <span>{{ $category->name }}</span>
+                 <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
+                 <div class="link">
+                     <a href="/menus?category={{ $category->slug }}">Details</a>
+                 </div>
+             </div>
+        </div>
       </div>
       @endforeach
     </div>
