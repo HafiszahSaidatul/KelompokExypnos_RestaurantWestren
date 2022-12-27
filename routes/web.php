@@ -5,6 +5,8 @@ use App\Http\Controllers\DashboardMenuController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardMenuController;
+use App\Http\Controllers\AdminCategoryController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Category;
 use App\Models\Menu;
@@ -29,7 +31,7 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "about",
+        "title" => "About",
         "active" => 'about',
         "judul1" => "A journey of umami woven into a melody of flavors in every dish",
         "desk1" => "A Delectable Distinguished Omakase Like No Other. Exclusive & Unorthodox. A Feast for the Palette. A Break From the Hustle, Residing On A Rooftop; Evoking Moments To Remember.",
@@ -53,7 +55,7 @@ Route::get('/menus/{menu:slug}', [MenuController::class, 'show'])->middleware('a
 
 Route::get('/categories', function () {
     return view('categories', [
-        'title' => 'Post Categories',
+        'title' => 'Menu Categories',
         'active' => 'categories',
         'categories' => Category::all()
     ]);

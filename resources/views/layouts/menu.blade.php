@@ -13,6 +13,7 @@
     
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/menus.css">
 
     <title>Affomato | {{ $title }} </title>
   </head>

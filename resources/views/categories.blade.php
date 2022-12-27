@@ -14,7 +14,11 @@
              </div>
              <div class="face back">
              <span>{{ $category->name }}</span>
-                 <p>{{ $category->body }}</p>
+
+
+--------
+
+
                  <div class="link">
                      <a href="/menus?category={{ $category->slug }}">Details</a>
                  </div>

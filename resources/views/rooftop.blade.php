@@ -3,15 +3,7 @@
 @section('container')
     <div class="container md-5 mt-5">
         <div class="row">
-            <div class="col">
-                <h2>Affomato Western</h2>
-
-                <a href="/about" class="btn btn-primary mt-4">Discover More</a>
-            </div>
-            <div class="col">
-                <img src="https://source.unsplash.com/500x450?makanan">
-            </div>
-        </div>
+            
     </div>
 
     <div class="container text-left mt-4">

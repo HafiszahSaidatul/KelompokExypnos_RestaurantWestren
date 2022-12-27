@@ -27,7 +27,9 @@ class MenuController extends Controller
     public function show(Menu $menu)
     {
         return view('menu', [
-            "title" => "Menu",
+
+--------
+
             "active" => 'menus',
             "menu" => $menu
         ]);
