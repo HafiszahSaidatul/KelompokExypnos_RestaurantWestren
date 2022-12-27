@@ -14,10 +14,11 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
 
+    
     <title>Affomato | {{ $title }} </title>
   </head>
   <body>
---------
+
     <div class="container">
       @yield('container')
     </div>

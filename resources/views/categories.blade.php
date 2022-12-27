@@ -1,8 +1,8 @@
 @extends('layouts.menu')
 
 @section('container')
-  <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Categories Food</h1>
 
+  <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Categories Food</h1>
   <div class="container">
     <div class="row">
       @foreach ($categories as $category)
@@ -14,11 +14,7 @@
              </div>
              <div class="face back">
              <span>{{ $category->name }}</span>
-
-
---------
-
-
+                <p>{{ $category->body }}</p>
                  <div class="link">
                      <a href="/menus?category={{ $category->slug }}">Details</a>
                  </div>
