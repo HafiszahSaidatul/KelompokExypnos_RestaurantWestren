@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Menu;
+
 use App\Models\User;
 
 class MenuController extends Controller
@@ -27,11 +28,9 @@ class MenuController extends Controller
     public function show(Menu $menu)
     {
         return view('menu', [
-
---------
-
-            "active" => 'menus',
-            "menu" => $menu
+        "title" => "Menu",
+        "active" => 'menus',
+         "menu" => $menu
         ]);
     }
 }

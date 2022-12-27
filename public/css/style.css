@@ -138,7 +138,7 @@ header ul li a {
 
 .thumb li img {
   max-width: 60px;
-
+ 
 }
 
 .sci {
@@ -211,6 +211,13 @@ img {
   height: auto;
 }
 
+/*===== CARD =====*/
+.containeroo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .card {
   width: 320px;
@@ -241,7 +248,19 @@ img {
   margin-top: 29px;
 }
 
+.card__preci {
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
 
+.card__description {
+  font-size: var(--small-font-size);
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+}
 
 .card__button {
   display: block;
@@ -267,10 +286,25 @@ img {
   transition: .5s;
 }
 
+/* Hover card effect */
+.card:hover .card__img {
+  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+}
+
+.card:hover .card__data {
+  transform: translateY(4.8rem);
+}
+
+.card:hover .card__title {
+  transform: translateX(-2.3rem);
+  margin-bottom: 0;
+}
 
 .card:hover .card__preci {
   transform: translateX(-6.8rem);
 }
+
+
 
 .card:hover .card__description, 
 .card:hover .card__button {

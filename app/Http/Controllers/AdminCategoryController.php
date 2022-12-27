@@ -26,13 +26,11 @@ class AdminCategoryController extends Controller
 
     public function show(Category $category)
     {
-
---------
-
-
-            'category' => $category
+        return view('dashboard.categories.show', [
+        'category' => $category
         ]);
     }
+        
 
     public function edit(Category $category)
     {
@@ -52,3 +50,5 @@ class AdminCategoryController extends Controller
         return redirect('/dashboard/categorys')->with('success', 'New category has been deleted!');
     }
 }
+
+
