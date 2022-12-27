@@ -36,7 +36,6 @@
         <li><a href="#"><img src="/assets/img/t.png"></a></li>
     </ul>
 
-    <!-- Halaman About -->
-    <section>
+   
 
 @endsection
