@@ -12,14 +12,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
     {{-- My Style --}}
-    <link rel="stylesheet" href="/css/menu.css">
-    <link rel="stylesheet" href="/css/menus.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <title>Affomato | {{ $title }} </title>
   </head>
   <body>
-    @include('partials.navbar')
-    
+
     <div class="container">
       @yield('container')
     </div>
