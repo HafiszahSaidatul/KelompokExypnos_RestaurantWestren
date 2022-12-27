@@ -5,7 +5,7 @@
     <li><a class="{{ ($active === "home") ? 'active' : ''}}" href="/">Home</a></li>
     <li><a class="{{ ($active === "about") ? 'active' : ''}}" href="/about">About</a></li>
     <li><a class="{{ ($active === "rooftop") ? 'active' : ''}}" href="/rooftop">Rooftoop Moments</a></li>
-    <li><a class="{{ ($active === "menu") ? 'active' : ''}}" href="/menus">Menu Fav</a></li>
+--------
     <li><a class="{{ ($active === "categories") ? 'active' : ''}}" href="/categories">Category</a></li>
   
     @auth

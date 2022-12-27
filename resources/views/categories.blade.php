@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.menu')
 
 @section('container')
   <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Categories Food</h1>
@@ -14,7 +14,11 @@
              </div>
              <div class="face back">
              <span>{{ $category->name }}</span>
-                 <p>This breakfast menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.</p>
+
+
+--------
+
+
                  <div class="link">
                      <a href="/menus?category={{ $category->slug }}">Details</a>
                  </div>

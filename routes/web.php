@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminCategoryController;
+use App\Http\Controllers\DashboardMenuController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\RegisterController;
@@ -7,6 +9,7 @@ use App\Http\Controllers\DashboardMenuController;
 use App\Http\Controllers\AdminCategoryController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Category;
+use App\Models\Menu;
 
 /*
 |--------------------------------------------------------------------------
