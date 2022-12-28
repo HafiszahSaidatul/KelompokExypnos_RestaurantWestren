@@ -45,9 +45,9 @@
             <div id="grid-container" class="cbp-l-grid-team">
                 <ul>
                     <li class="cbp-item psychiatrist">
-                        <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
+                        <a href="" class="cbp-caption cbp-singlePage">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/1.jpg" alt="" width="100%">
+                                <img src="/assets/img/pija.jpeg" alt="" width="100%">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -57,15 +57,15 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Hafizah Saidatul</a>
+                        <a href="" class="cbp-singlePage cbp-l-grid-team-name">Hafizah Saidatul</a>
                         <a class=" cbp-l-grid-team-name">203040050</a>
                         <div class="cbp-l-grid-team-position">Leader</div>
                     </li>
 
                     <li class="cbp-item cardiologist">
-                        <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
+                        <a href="" class="cbp-caption cbp-singlePage">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/2.jpg" alt="" width="100%">
+                                <img src="/assets/img/egg.jpg" alt="" width="100%">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -75,14 +75,14 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Mohamad Egi Rahayu</a>
+                        <a href="" class="cbp-singlePage cbp-l-grid-team-name">Mohamad Egi Rahayu</a>
                         <a class=" cbp-l-grid-team-name">203040050</a>
                         <div class="cbp-l-grid-team-position">Back End</div>
                     </li>
                     <li class="cbp-item cardiologist">
-                        <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
+                        <a href="" class="cbp-caption cbp-singlePage">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/3.jpg" alt="" width="100%">
+                                <img src="/assets/img/nikolas.jpg" alt="" width="100%">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -92,14 +92,14 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Nikolas Ramadhan</a>
+                        <a href="" class="cbp-singlePage cbp-l-grid-team-name">Nikolas Ramadhan</a>
                         <a class=" cbp-l-grid-team-name">203040049</a>
                         <div class="cbp-l-grid-team-position">Front End</div>
                     </li>
                     <li class="cbp-item neurologist">
-                        <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
+                        <a href="" class="cbp-caption cbp-singlePage">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="img/team/4.jpg" alt="" width="100%">
+                                <img src="/assets/img/alfi.jpg" alt="" width="100%">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignCenter">
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Alfi Syahrin Rachmat</a>
+                        <a href="" class="cbp-singlePage cbp-l-grid-team-name">Alfi Syahrin Rachmat</a>
                         <a class=" cbp-l-grid-team-name">203040054</a>
                         <div class="cbp-l-grid-team-position">Front End</div>
                     </li>

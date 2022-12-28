@@ -10,7 +10,7 @@
                     </div>
                     <div class="face back">
                         <span>{{ $menu->nama }}</span>
-                        <img src="https://source.unsplash.com/500x400?{{ $menu->nama }}" alt="{{ $menu->nama }}">
+                        <img src="https://source.unsplash.com/1200x400?food{{ $menu->name }}" alt="{{ $menu->name }}">
                         <div class="link">
                             
                             <a href="/menus/{{ $menu->slug }}">Details</a>
