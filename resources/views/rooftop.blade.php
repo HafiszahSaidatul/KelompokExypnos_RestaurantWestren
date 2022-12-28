@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <div class="container" style="background-color: #FED049; border-radius:5%">
+    <div class="container" style="margin-top: 150px; widht: 50px; background-color: #FED049; border-radius:5%">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <h1 class="text-white" style="margin-top: 120px; margin-bottom: 25px;">Moments</h1>

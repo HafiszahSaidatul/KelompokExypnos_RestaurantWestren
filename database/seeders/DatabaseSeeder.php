@@ -141,66 +141,40 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Rooftop::create([
-            'title' => 'Makan Seblak',
-            'slug' => 'makan-seblak',
-            'excerpt' => 'Makan Seblak di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
+            'title' => 'Noon-Lunch',
+            'slug' => 'noon lunch',
+            'excerpt' => 'Get here by 5pm to Enjoy Happy Hours that last till 8pm',
+            'body' => 'Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
             'user_id' => 2,
             'category_id' => 1
         ]);
 
         Rooftop::create([
-            'title' => 'Makan Bakso',
-            'slug' => 'makan-bakso',
-            'excerpt' => 'Makan bakso di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
+            'title' => 'happy Hours',
+            'slug' => 'happy-Hours',
+            'excerpt' => 'Breakfast moments starts right from 11.30am to 2.30pm; last order at 1.30pm.',
+            'body' => 'Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
             'user_id' => 1,
             'category_id' => 2
         ]);
 
         Rooftop::create([
-            'title' => 'Makan Siomay',
-            'slug' => 'makan-siomay',
-            'excerpt' => 'Makan Siomay di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
+            'title' => 'The Sparkle – Dinner',
+            'slug' => 'the sparkle-dinner',
+            'excerpt' => 'Dinner Menu starts at 6pm and ends with the last order at 9pm.',
+            'body' => 'Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
             'user_id' => 1,
             'category_id' => 3
         ]);
 
         Rooftop::create([
-            'title' => 'Makan Batagor',
-            'slug' => 'makan-batagor',
-            'excerpt' => 'Makan Batagor di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
+            'title' => 'Private Moments ',
+            'slug' => 'private-moments ',
+            'excerpt' => 'Lunch moments starts right from 11.30am to 2.30pm; last order at 1.30pm.',
+            'body' => 'Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
             'user_id' => 2,
             'category_id' => 1
         ]);
 
-        Rooftop::create([
-            'title' => 'Makan Kupat Tahu',
-            'slug' => 'makan-kupat-tahu',
-            'excerpt' => 'Makan Batagor di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
-            'user_id' => 2,
-            'category_id' => 3
-        ]);
-
-        Rooftop::create([
-            'title' => 'Makan Ketoprak',
-            'slug' => 'makan-ketoprak',
-            'excerpt' => 'Makan Ketoprak di bandung lebih enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
-            'user_id' => 1,
-            'category_id' => 2
-        ]);
-
-        Rooftop::create([
-            'title' => 'Makan Ayam Geprek',
-            'slug' => 'makan-ayam-geprek',
-            'excerpt' => 'Makan ayam geprek enak',
-            'body' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sunt adipisci mollitia veritatis deserunt quam, quaerat dignissimos, voluptatum maxime laudantium rerum libero. Dolorum nemo dolores nostrum ex accusamus ad ducimus amet, voluptatum laudantium dolor obcaecati distinctio eaque delectus quod esse totam quis dolore qui maxime. Doloremque voluptas sint nostrum consectetur natus libero minus suscipit error voluptatum illo, sed sapiente distinctio facilis delectus nulla alias ipsa commodi aut laborum magnam ipsum vitae? Facere inventore officia officiis possimus exercitationem. Corporis, explicabo. Et a neque deleniti, autem voluptates minus distinctio, sed id quisquam, quis iste sapiente. Expedita quos non temporibus consequuntur perferendis atque.',
-            'user_id' => 1,
-            'category_id' => 2
-        ]);
     }
 }

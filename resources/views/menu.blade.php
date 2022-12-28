@@ -10,7 +10,7 @@
             {{-- <img src="{{ asset('storage/' . $menu->image) }}" alt="{{ $menu->name }}" class="img-fluid">   --}}
             <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}">
           @else  
-            <img src="https://source.unsplash.com/1200x400?{{ $menu->name }}" alt="{{ $menu->name }}">
+            <img src="https://source.unsplash.com/1200x400?food{{ $menu->name }}" alt="{{ $menu->name }}">
         @endif
         
         <article class="my-3 fs-5">

@@ -68,7 +68,7 @@
         <div class="row">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
             <div class="section-heading text-center">
-    <h3 class="text-center" style ="margin: 0 20px -50pt; color: #ffba00; font-size:50px;">Menu Favorite</h3>
+    <h3 class="text-center" style ="margin: 0 20px -50pt; color: #ffba00; font-size:50px;">Menu Best Seller</h3>
     <div class="col">
         <div class="containeroo">
             <div class="card">
