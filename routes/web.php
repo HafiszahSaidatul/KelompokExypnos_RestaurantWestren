@@ -5,6 +5,7 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\AdminCategoryController;
 use App\Http\Controllers\DashboardMenuController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\RooftopController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Category;
 use App\Models\Menu;
@@ -41,12 +42,8 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/rooftop', function () {
-    return view('rooftop', [
-        "title" => "rooftop",
-        "active" => 'rooftop'
-    ]);
-});
+Route::get('/rooftops', [RooftopController::class, 'index']);
+Route::get('rooftops/{rooftop:slug}', [RooftopController::class, 'show']);
 
 Route::get('/menus', [MenuController::class, 'index']);
 Route::get('/menus/{menu:slug}', [MenuController::class, 'show'])->middleware('auth');
