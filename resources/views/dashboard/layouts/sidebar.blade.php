@@ -7,12 +7,6 @@
           Dashboard
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link {{ Request::is('dashboard/menus*') ? 'active' : ''}}" href="/dashboard/menus">
-          <span data-feather="file-text" class="align-text-bottom"></span>
-          My Menu
-        </a>
-      </li>
     </ul> 
 
     @can('admin')
@@ -22,12 +16,11 @@
 
       <ul class="nav flex-column">
         <li class="nav-item">
-          <a class="nav-link {{ Request::is('dashboard/categories*') ? 'active' : ''}}" aria-current="page" href="/dashboard/categories">
-            <span data-feather="grid" class="align-text-bottom"></span>
-            Post Categories
+          <a class="nav-link {{ Request::is('dashboard/menus*') ? 'active' : ''}}" href="/dashboard/menus">
+            <span data-feather="file-text" class="align-text-bottom"></span>
+            All Menu
           </a>
         </li>
-      </ul>
     @endcan
   </div>
 </nav>

@@ -175,6 +175,5 @@ class DatabaseSeeder extends Seeder
             'user_id' => 2,
             'category_id' => 1
         ]);
-
     }
 }

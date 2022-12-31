@@ -29,6 +29,9 @@ class DashboardMenuController extends Controller
      */
     public function create()
     {
+        return view('dashboard.menus.create', [
+            'categories' => Category::all()
+        ]);
     }
 
     /**
@@ -49,17 +52,15 @@ class DashboardMenuController extends Controller
         ]);
 
         if ($request->file('image')) {
-            // $validatedData['image'] = $request->file('image')->store('menu-images');
-            $img = $request->file('image')->store('menu-images');
-            $imgsplit = explode('/', $img);
-            $validatedData['image'] = $imgsplit[1];
+            $validatedData['image'] = $request->file('image')->store('menu-images');
         }
 
         $validatedData['user_id'] = auth()->user()->id;
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
 
         Menu::create($validatedData);
 
-        return redirect('/dashboard/menus')->with('success', 'New menu has been added!');
+        return redirect('/dashboard/menus')->with('success', 'New Menu has been added!');
     }
 
     /**
@@ -117,9 +118,7 @@ class DashboardMenuController extends Controller
                 Storage::delete($request->oldImage);
             }
 
-            $img = $request->file('image')->store('menu-images');
-            $imgsplit = explode('/', $img);
-            $validatedData['image'] = $imgsplit[1];
+            $validatedData['image'] = $request->file('image')->store('menu-images');
         }
 
         $validatedData['user_id'] = auth()->user()->id;
@@ -130,12 +129,6 @@ class DashboardMenuController extends Controller
         return redirect('/dashboard/menus')->with('success', 'New menu has been updated!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Menu  $menu
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Menu $menu)
     {
         if ($menu->image) {
@@ -145,4 +138,10 @@ class DashboardMenuController extends Controller
         Menu::destroy($menu->id);
         return redirect('/dashboard/menus')->with('success', 'New menu has been deleted!');
     }
+
+    // public function checkSlug(Request $request)
+    // {
+    //     $slug = SlugService::createSlug(Post::class, 'slug', $request->title);
+    //     return response()->json(['slug' => $slug]);
+    // }
 }
