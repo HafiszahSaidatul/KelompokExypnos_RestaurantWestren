@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Menu;
-
 use App\Models\User;
 
 class MenuController extends Controller
@@ -15,22 +14,22 @@ class MenuController extends Controller
         $title = '';
         if (request('category')) {
             $category = Category::firstWhere('slug', request('category'));
-            $title = $category->name;
+            $title = ' Category : ' . $category->name;
         }
 
         return view('menus', [
             "title" => "All Menu" . $title,
             "active" => 'menus',
-            "menus" => Menu::all()
+            "menus" => Menu::latest()->filter(request(['search', 'category']))->paginate(12)->withQueryString()
         ]);
     }
 
     public function show(Menu $menu)
     {
         return view('menu', [
-        "title" => "Menu",
-        "active" => 'menus',
-         "menu" => $menu
+            "title" => "Menu",
+            "active" => 'menus',
+            "menu" => $menu
         ]);
     }
 }

@@ -3,7 +3,9 @@
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\AdminCategoryController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardMenuController;
+use App\Http\Controllers\GetImagesController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\RooftopController;
 use Illuminate\Support\Facades\Route;
@@ -70,5 +72,3 @@ Route::get('/dashboard', function () {
 
 Route::get('/dashboard/menus/checkSlug', [DashboardMenuController::class], 'checkSlug')->middleware('auth');
 Route::resource('/dashboard/menus', DashboardMenuController::class)->middleware('auth');
-
-Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show')->middleware('admin');

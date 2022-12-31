@@ -76,7 +76,7 @@
                             </div>
                         </a>
                         <a href="" class="cbp-singlePage cbp-l-grid-team-name">Mohamad Egi Rahayu</a>
-                        <a class=" cbp-l-grid-team-name">203040050</a>
+                        <a class=" cbp-l-grid-team-name">203040045</a>
                         <div class="cbp-l-grid-team-position">Back End</div>
                     </li>
                     <li class="cbp-item cardiologist">
@@ -122,9 +122,9 @@
 			</div>
 			</div>
 		</div>
-    <!-- Core JavaScript Files -->
- <script src="/js/jquery.min.js"></script>	 
- <script src="/js/jquery.easing.min.js"></script>
+
+<script src="/js/jquery.min.js"></script>	 
+<script src="/js/jquery.easing.min.js"></script>
 <script src="/js/wow.min.js"></script>
 <script src="/js/jquery.scrollTo.js"></script>
 <script src="/js/jquery.appear.js"></script>
