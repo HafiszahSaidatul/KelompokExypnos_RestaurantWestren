@@ -12,7 +12,7 @@
                             class="text-decoration-none">{{ $menu->category->name }}</a></p>
 
                     @if ($menu->image)
-                      <img src="{{ asset('storage/' . $menu->image) }}" alt="{{ $menu->nama }}" class="img-fluid mt-3">  
+                      <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}" class="img-fluid">
                     @else  
                       <img src="https://source.unsplash.com/500x300?{{ $menu->nama }}" alt="{{ $menu->nama }}" class="img-fluid mt-3">
                     @endif

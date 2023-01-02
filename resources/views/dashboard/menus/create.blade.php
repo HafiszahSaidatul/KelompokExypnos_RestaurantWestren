@@ -69,4 +69,33 @@
       <button type="submit" class="btn btn-primary">Create Menu</button>
     </form>
   </div>
+
+  <script>
+    const nama = document.querySelector('#nama');
+    const slug = document.querySelector('#slug');
+
+    nama.addEventListener('change', function() {
+      fetch('/dashboard/posts/checkSlug?nama=' + nama.value)
+        .then(response => response.json())
+        .then(data => slug.value = data.slug)
+    });
+
+    document.addEvenListener('trix-file-accept', function(e) {
+      e.preventDefault();
+    })
+
+    function previewImage() {
+      const image = document.querySelector('#image');
+      const imgPreview = document.querySelector('.img-preview');
+
+      imgPreview.style.display = 'block';
+
+      const oFReader = new FileReader();
+      oFReader.readAsDataURL(image.files[0]);
+
+      oFReader.onload = function(oFREvent) {
+        imgPreview.src = oFREvent.target.result;
+      }
+    }
+  </script>
 @endsection

@@ -1,4 +1,5 @@
 @extends('layouts.menu')
+
 @section('container')
     <div class="circle"></div>
 
@@ -8,11 +9,16 @@
 
     <div class="row justify-content-center">
         <div class="col-md-6">
-        <form action="/menus">
-            @if (request('category'))
-            <input type="hidden" name="category" value="{{ request('category') }}">
-            @endif
-        </form>
+            <form action="/menus">
+                @if (request('category'))
+                <input type="hidden" name="category" value="{{ request('category') }}">
+                @endif
+                
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search.." name="search" value="{{ request('search') }}">
+                    <button class="btn btn-danger" type="submit">Search</button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -28,8 +34,8 @@
                         <span>{{ $menu->nama }}</span>
                         
                         @if ($menu->image)
-                        <div style="max-height: 300px; overflow: hidden;"></div>
-                            <img src="{{ asset('storage/' . $menu->image) }}" alt="{{ $menu->nama }}">  
+                            <div style="max-height: 300px; overflow: hidden;"></div>
+                            <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}" class="img-fluid" style="height: 150px; width: 500p">
                         @else  
                             <img src="https://source.unsplash.com/500x300?{{ $menu->nama }}-food" alt="{{ $menu->nama }}" class="img-fluid mt-3">
                         @endif
@@ -39,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-             @endforeach
+            @endforeach
         </div>    
     </div> 
 @endsection

@@ -39,8 +39,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Category::create([
-            'name' => 'Have Lunch',
-            'slug' => 'have-lunch',
+            'name' => 'Lunch',
+            'slug' => 'lunch',
             'body' => 'This lunch menu is one of the most favorite dishes in this restaurant. served very delicious and hot, because the manufacturing time is fast and cooked right away and you can takeaway for lunch at the office or at home.'
         ]);
 

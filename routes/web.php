@@ -72,3 +72,5 @@ Route::get('/dashboard', function () {
 
 Route::get('/dashboard/menus/checkSlug', [DashboardMenuController::class], 'checkSlug')->middleware('auth');
 Route::resource('/dashboard/menus', DashboardMenuController::class)->middleware('auth');
+
+Route::get('/storage/menu-images/{filename}', [GetImagesController::class, 'displayImage'])->name('image.displayImage');
