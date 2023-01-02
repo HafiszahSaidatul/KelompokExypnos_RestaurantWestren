@@ -16,7 +16,7 @@
         
         @if ($menu->image)
           <div style="max-height: 350px; overflow: hidden;"></div>
-          <img src="{{ asset('storage/' . $menu->image) }}" alt="{{ $menu->category->name }}" class="img-fluid mt-3">
+          <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}" class="img-fluid">
         @else  
           <img src="https://source.unsplash.com/1200x400?{{ $menu->category->name }}" alt="{{ $menu->category->name }}" class="img-fluid mt-3">
         @endif
