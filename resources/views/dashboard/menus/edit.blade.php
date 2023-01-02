@@ -11,7 +11,7 @@
       @csrf
       <div class="mb-3">
         <label for="nama" class="form-label">Menu Name</label>
-        <input type="text" class="form-control @error('nama') is-invalid @enderror" id="nama" name="nama" required autofocus value="{{ old('title', $menu->nama) }}">
+        <input type="text" class="form-control @error('nama') is-invalid @enderror" id="nama" name="nama" required autofocus value="{{ old('nama', $menu->nama) }}">
         @error('nama')
             <div class="invalid-feedback">
               {{ $message }}
@@ -50,9 +50,10 @@
       </div>
       <div class="mb-3">
         <label for="image" class="form-label">Menu Image</label>
+        <input type="hidden" name="oldImage" value="{{ $menu->image }}">
         
         @if ($menu->image)
-          <img src="{{ asset('storage/' . $menu->image) }}" class="img-preview img-fluid mb-3 col-sm-5 d-block">
+          <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}" class="img-preview img-fluid mb-3 col-sm-5 d-block">
         @else
           <img class="img-preview img-fluid mb-3 col-sm-5">
         @endif
@@ -78,11 +79,11 @@
   </div>
 
   <script>
-    const title = document.querySelector('#title');
+    const nama = document.querySelector('#nama');
     const slug = document.querySelector('#slug');
 
-    title.addEventListener('change', function() {
-      fetch('/dashboard/menus/checkSlug?title=' + title.value)
+    nama.addEventListener('change', function() {
+      fetch('/dashboard/menus/checkSlug?nama=' + nama.value)
         .then(response => response.json())
         .then(data => slug.value = data.slug)
     });
@@ -101,7 +102,7 @@
       oFReader.readAsDataURL(image.files[0]);
 
       oFReader.onload = function(oFREvent) {
-        imgPreview.src = oFReader.target.result;
+        imgPreview.src = oFREvent.target.result;
       }
     }
   </script>
