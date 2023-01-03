@@ -35,9 +35,9 @@
                         
                         @if ($menu->image)
                             <div style="max-height: 300px; overflow: hidden;"></div>
-                            <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}" class="img-fluid" style="height: 150px; width: 500p">
+                            <img src="{{ Route('image.displayImage' , $menu->image) }}" alt="{{ $menu->name }}-food" class="img-fluid" style="height: 150px; width: 500p">
                         @else  
-                            <img src="https://source.unsplash.com/500x300?{{ $menu->nama }}-food" alt="{{ $menu->nama }}" class="img-fluid mt-3">
+                            <img src="https://source.unsplash.com/500x300?{{ $menu->nama }}-food" alt="{{ $menu->nama }}-food" class="img-fluid mt-3">
                         @endif
 
                         <div class="link">

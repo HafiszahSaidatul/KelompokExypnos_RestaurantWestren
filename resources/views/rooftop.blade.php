@@ -12,7 +12,7 @@
                             class="text-decoration-none">{{ $rooftop->author->name }}</a>
                         in <a href="/categories/{{ $rooftop->category->slug }}"
                             class="text-decoration-none">{{ $rooftop->category->name }}</a></p>
-                    <img src="https://source.unsplash.com/1200x400?{{ $rooftop->category->name }}" class="card-img-top"
+                    <img src="https://source.unsplash.com/1200x400?{{ $rooftop->category->name }}-rooftop-bar" class="card-img-top"
                         alt="{{ $rooftop->category->name }}" class="img-fluid">
 
                     {!! $rooftop->body !!}
