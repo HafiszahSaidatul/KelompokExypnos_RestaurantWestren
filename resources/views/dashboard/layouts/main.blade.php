@@ -48,18 +48,6 @@
     <script src="/js/dashboard.js"></script>
 </body>
 <footer style="margin-top: 500px; background: #393E46">
-    <div class="footer-content">
-        <h3>Affomato</h3>
-        <p>A Delectable Distinguished Affomato Like No Other. Exclusive & Unorthodox. A Feast for the Palette. A Break
-            From the Hustle, Residing On A Rooftop Evoking Moments To Remember,Whisper to us about your feelings and we
-            will prepare what you need now.</p>
-        <ul class="socials">
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-github"></i></a></li>
-        </ul>
-    </div>
     <div class="div footer-bottom">
         <p>copyright &copy; 2022 Affomato. design by. <a href="/about">Team Exypnos</a></p>
     </div>
