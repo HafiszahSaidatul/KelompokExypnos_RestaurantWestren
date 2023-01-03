@@ -23,7 +23,7 @@
                         <div class="position-absolute px-3 py-2 " style="background-color: rgba(0,0,0,0.7)"><a
                                 href="/categories/{{ $rooftop->category->slug }}" class="text-white text-decoration-none">
                                 {{ $rooftop->category->name }}</a></div>
-                        <img src="https://source.unsplash.com/500x400?rooftop-bar{{ $rooftop->category->name }}" class="card-img-top"
+                        <img src="https://source.unsplash.com/500x400?{{ $rooftop->category->name }}-rooftop-bar" class="card-img-top"
                             alt="{{ $rooftop->category->name }}">
                         <div class="card-body">
                             <h5 class="card-title">{{ $rooftop->title }}</h5>

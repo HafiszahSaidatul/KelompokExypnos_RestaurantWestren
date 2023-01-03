@@ -66,30 +66,30 @@
                     <div class="col">
                         <div class="containeroo">
                             <div class="card">
-                                <img src="/assets/img/b.png" alt="" class="card__img">
+                                <img src="/assets/img/breakfast.png" alt="" class="card__img">
                                 <div class="card__data">
-                                    <h1 class="card__title"> Strawberry Roll</h1>
-                                    <span class="card__preci">50K</span>
-                                    <p class="card__description"> Strawberry shortcake Menu Best Seller Breakfast.</p>
-                                    <a href="/menus" class="card__button">Review</a>
+                                    <h1 class="card__title">Bowl Cobbler</h1>
+                                    <span class="card__preci">Rp. 45.455</span>
+                                    <p class="card__description">Menu Best Seller BreakFast.</p>
+                                    <a href="/menus" class="card__button">All Menu</a>
                                 </div>
                             </div>
                             <div class="card">
-                                <img src="/assets/img/nodle.png" alt="" class="card__img">
+                                <img src="/assets/img/lunch.png" alt="" class="card__img">
                                 <div class="card__data">
-                                    <h1 class="card__title">Veggle Noodles</h1>
-                                    <span class="card__preci">90K</span>
-                                    <p class="card__description">Veggle Noodles Menu Best Seller Have Lunch.</p>
-                                    <a href="/menus" class="card__button">Review</a>
+                                    <h1 class="card__title">Cooked Duck</h1>
+                                    <span class="card__preci">Rp. 50.500</span>
+                                    <p class="card__description">Menu Best Seller Lunch.</p>
+                                    <a href="/menus" class="card__button">All Menu</a>
                                 </div>
                             </div>
                             <div class="card">
-                                <img src="/assets/img/pasta.png" alt="" class="card__img">
+                                <img src="/assets/img/dnr.png" alt="" class="card__img">
                                 <div class="card__data">
-                                    <h1 class="card__title">Pasta Tomato</h1>
-                                    <span class="card__preci">135K</span>
-                                    <p class="card__description">Pasta Tomato Menu Best Seller Dinner.</p>
-                                    <a href="/menus" class="card__button">Review</a>
+                                    <h1 class="card__title">Fried Pork</h1>
+                                    <span class="card__preci">Rp. 80.999</span>
+                                    <p class="card__description">Menu Best Seller Dinner.</p>
+                                    <a href="/menus" class="card__button">All Menu</a>
                                 </div>
                             </div>
                         </div>
